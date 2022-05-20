@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PRICING LAYOUT</title>
+  <style>
+    #heading {
+      width: 50%;
+      margin: auto;
+    }
+
+    #heading>h1 {
+      margin: auto;
+      width: 65%;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    #heading>p {
+      margin: auto;
+      width: 72%;
+      font-size: 22px;
+      text-align: center;
+      padding: 20px 0px 20px 0px;
+    }
+
+    #cards-section h2 {
+      font-size: 35px;
+    }
+
+    #cards-section {
+      width: 70%;
+      margin: auto;
+      height: 100%;
+      display: flex;
+      margin-top: 60px;
+    }
+
+    #cards-section div {
+      width: 30%;
+      margin: auto;
+      height: 100%;
+      text-align: center;
+      background-color: rgb(255, 255, 255);
+      border-radius: 35px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    }
+
+    #cards-section>div>p+p {
+      width: 70%;
+      font-size: 22px;
+      line-height: 30px;
+      text-align: center;
+      margin: auto;
+    }
+
+    button {
+      padding: 15px 20px 15px 20px;
+      color: rgb(87, 0, 216);
+      font-size: 25px;
+      background-color: white;
+      border: 2px solid rgb(87, 0, 216);
+      border-radius: 10px;
+      margin: 60px 0px 40px 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+
+    #cards-section div>h1+p {
+      font-style: italic;
+      font-weight: bold;
+    }
+
+    #cards-section div:first-child>h1 {
+      color: rgb(0, 226, 68);
+    }
+    #cards-section div:last-child>h1 {
+      color: rgb(87, 0, 216);
+    }
+    #cards-section div:nth-child(2)>h1 {
+      color: orange;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="heading">
+    <h1>Choose a plan that right for your business</h1>
+    <p>
+      We collect reviews from our users so you can get an honest opinion of
+      what an experience with our website are really like!
+    </p>
+  </div>
+
+  <!-- Cards section -->
+  <div id="cards-section">
+    <!-- This section should contain 3 children divs, each div should have h2,h1,p,p,button -->
+    <div>
+      <h2>Starter Plan</h2>
+      <h1>Free</h1>
+      <p>Per Month</p>
+      <p>We collect reviews from our users so you can get an honest opinion of
+        what an experience with our website.</p>
+      <button>Start Now</button>
+    </div>
+
+    <div>
+      <h2>Starter Plan</h2>
+      <h1>$39.00</h1>
+      <p>Per Month</p>
+      <p>We collect reviews from our users so you can get an honest opinion of
+        what an experience with our website.</p>
+      <button>Start Now</button>
+    </div>
+
+    <div>
+      <h2>Starter Plan</h2>
+      <h1>$59.00</h1>
+      <p>Per Month</p>
+      <p>We collect reviews from our users so you can get an honest opinion of
+        what an experience with our website.</p>
+      <button>Start Now</button>
+    </div>
+  </div>
+</body>
+
+</html>
