@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERIODIC TABLE (SELECTORS)</title>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #main_div {
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        .for_table {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+        }
+
+        .for_smallbox {
+
+            width: 4%;
+            height: 65px;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .left {
+            margin-left: 5px;
+            border: 3px solid black;
+            background-color: brown;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .last {
+            margin-right: 5px;
+            border: 3px solid black;
+        }
+
+        .right {
+            margin-right: 5px;
+            border: 3px solid black;
+            background-color: yellow;
+        }
+
+        .first {
+            margin-left: 5px;
+            background-color: rgb(114, 189, 3);
+            border: 3px solid black;
+        }
+
+        .middle {
+            background-color: blue;
+            border: 3px solid black;
+        }
+
+        .white {
+            background-color: white;
+            border: 3px solid white;
+        }
+
+        .number {
+            text-align:center;
+            font-size: 35px;
+            color: black;
+            background-color: rgb(255, 109, 56);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .color {
+            background-color: rgb(116, 109, 109);
+        }
+
+        .bisque {
+            background-color: bisque;
+        }
+
+        .pink {
+            background-color: rgb(255, 76, 106);
+        }
+
+        .green {
+            background-color: rgb(114, 189, 3);
+        }
+
+        .violet {
+            background-color: rgb(148, 0, 153);
+        }
+
+        .orange {
+            background-color: rgb(255, 109, 56);
+        }
+
+        #bottom {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+
+        .mix {
+            width: 50%;
+            height: 100px;
+            margin: auto;
+            height: 60px;
+            display: flex;
+        }
+
+        .hor {
+            border: 1.5px solid rgb(88, 76, 76);
+            width: 7%;
+        }
+
+        .extra {
+            background-color: rgb(0, 111, 0);
+        }
+
+        .new {
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .no {
+            text-align: center;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .green1{
+            background-color: rgb(0, 124, 0);
+            border: rgb(0, 124, 0);
+        }
+        #silicon{
+            border: 3px solid rgb(0, 0, 0);
+            width: 10%;
+            height: 200px;
+            margin: 150px 0px -280px 363px;
+            background-color: rgb(0, 124, 0);
+        }
+        .text1{
+            text-align: end;
+            font-size: 30px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #text2{
+            font-size: 60px;
+            text-align:left;
+            margin-top: -35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #sil{
+            text-align: left;
+            font-size: 25px;
+            margin-top: -60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>THE PERIODIC TABLE OF ELEMENTS</h1>
+
+    <div id="silicon"></div>
+
+    <div id="main_div">
+        <div class="for_table">
+            <div class="left for_smallbox">H</div>
+            <div class="right for_smallbox"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">4</div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox green1"></div>
+            <div class="white for_smallbox green1 text1">14</div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox pink"></div>
+            <div class="last for_smallbox right"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">12</div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox green1"><p id="text2">Si</p> <p id="sil">Silicon</p></div>
+            <div class="white for_smallbox green1"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="white for_smallbox"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox pink"></div>
+            <div class="last for_smallbox right"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">20</div>
+            <div class="white for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox green"></div>
+            <div class="last for_smallbox pink"></div>
+            <div class="last for_smallbox right"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">38</div>
+            <div class="white for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox pink"></div>
+            <div class="last for_smallbox right"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">56</div>
+            <div class="bisque middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox orange"></div>
+            <div class="last for_smallbox violet"></div>
+            <div class="last for_smallbox pink"></div>
+            <div class="last for_smallbox right"></div>
+        </div>
+
+        <div class="for_table">
+            <div class="first for_smallbox"></div>
+            <div class="first for_smallbox number">88</div>
+            <div class="bisque middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="middle for_smallbox"></div>
+            <div class="last for_smallbox color"></div>
+            <div class="last for_smallbox color"></div>
+            <div class="last for_smallbox color"></div>
+            <div class="last for_smallbox color"></div>
+            <div class="last for_smallbox color"></div>
+            <div class="last for_smallbox color"></div>
+        </div>
+    </div>
+
+    <div id="bottom">
+        <div class="mix">
+            <div class="hor extra new">La</div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+            <div class="hor extra"></div>
+        </div>
+        <div class="mix">
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green no">Am</div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green"></div>
+            <div class="hor green no">No</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
